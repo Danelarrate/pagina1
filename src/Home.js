@@ -4,7 +4,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 const Home = () => {
   return (
     <section className="firstSection">
-      <div id="home" className="home">
+      <article id="home" className="home">
         <h1 style={{ margin: "5% auto 0 auto", color: "white" }}>Titulo 1</h1>
         <h1 style={{ margin: "0 auto 0 auto" }}>titulo 2</h1>
         <p style={{ margin: "5% auto 0 auto", width: "45%" }}>
@@ -13,21 +13,21 @@ const Home = () => {
           eu imperdiet velit, ac laoreet tellus. In id leo a ligula tempor
           scelerisque in non felis.
         </p>
-      </div>
+      </article>
       <div className="randomDiv">
         <Contactanos />
         <button type="button" className="verMas">
           <Link
-            href="#nosotros"
+            href="#section1"
             activeClass="active"
-            to="nosotros"
+            to="section1"
             spy={true}
             smooth={true}
             offset={-100}
             duration={500}
           >
             Ver mas
-          </Link>{" "}
+          </Link>
         </button>
       </div>
     </section>

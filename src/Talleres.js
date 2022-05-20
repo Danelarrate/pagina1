@@ -25,7 +25,7 @@ const Talleres = () => {
   }, [index]);
   return (
     <section className="slider" id="section3">
-      <div style={{ width: "90%", margin: 0 }}>
+      <article style={{ width: "90%", margin: 0 }}>
         <h2 style={{ color: "blueviolet", fontSize: "2.5vw" }}>Talleres</h2>
         <p style={{ color: "grey", fontSize: "1vw" }}>
           Actividades de formación teórico prácticas de distintas especialidades
@@ -33,8 +33,8 @@ const Talleres = () => {
           integral. Formato online y presencial, duración 40 min. Dictado por
           profesionales de la salud.
         </p>
-      </div>
-      <div className="card-section">
+      </article>
+      <article className="card-section">
         {taller.map((actividad, actividadIndex) => {
           const { id, title, text, image } = actividad;
           let position = "nextSlide";
@@ -48,7 +48,7 @@ const Talleres = () => {
             position = "lastSlide";
           }
           return (
-            <article className={position} key={id}>
+            <article className={position + " slider-article"} key={id}>
               <div className="div-img-taller">
                 <img src={image} alt={title}></img>
               </div>
@@ -81,7 +81,7 @@ const Talleres = () => {
         >
           <FiChevronRight></FiChevronRight>
         </button>
-      </div>
+      </article>
     </section>
   );
 };

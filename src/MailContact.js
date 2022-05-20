@@ -2,7 +2,7 @@ import React from "react";
 
 const MailContact = () => {
   return (
-    <div className="sendemail">
+    <section className="sendemail">
       <form id="mail" className="form-section">
         <div>
           <h4 style={{ fontSize: "2.5vw", color: "gray", marginBottom: "2vh" }}>
@@ -17,9 +17,9 @@ const MailContact = () => {
             Asunto
           </label>
           <select id="dropdown" name="asunto" className="form-control" required>
-            <option value="contactar">contactar</option>
-            <option value="taller">taller</option>
-            <option value="pausas">pausas</option>
+            <option value="contactar">Contactar</option>
+            <option value="taller">Taller</option>
+            <option value="pausas">Pausas</option>
             <option value="other">Otro</option>
           </select>
         </div>
@@ -31,7 +31,7 @@ const MailContact = () => {
             type="text"
             id="name"
             name="name"
-            placeholder="Rosa Melano"
+            placeholder="Esteban Quitoahre"
             className="form-control"
             required
           />
@@ -83,7 +83,7 @@ const MailContact = () => {
           </button>
         </div>
       </form>
-    </div>
+    </section>
   );
 };
 

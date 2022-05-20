@@ -137,6 +137,11 @@ header a:hover {
 .btn-contact:hover {
   background-color: rgb(157, 77, 231);
 }
+.btn-contact a {
+  text-decoration: none;
+  color: white;
+}
+
 .verMas {
   margin: 1vw;
   width: 8vw;
@@ -145,10 +150,11 @@ header a:hover {
   border: none;
   background-color: rgb(199, 179, 218);
   font-size: 1.5vw;
-  color: blueviolet;
 }
 .verMas a {
   text-decoration: none;
+  color: blueviolet;
+  font-weight: 700;
 }
 .verMas:hover {
   background-color: rgb(179, 146, 211);
@@ -358,7 +364,7 @@ header a:hover {
 .taller-card {
   background-color: aqua;
 }
-article {
+.slider-article {
   display: flex;
   position: absolute;
   top: 0;

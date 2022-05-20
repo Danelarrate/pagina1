@@ -3,7 +3,7 @@ import pausasData from "./pausasData";
 const PausasActivas = () => {
   return (
     <section className="pausasSection" id="section2">
-      <div style={{ width: "90%", marginBottom: "4vh" }}>
+      <article style={{ width: "90%", marginBottom: "4vh" }}>
         <h2 style={{ color: "blueviolet", fontSize: "2.5vw" }}>
           PAUSAS ACTIVAS
         </h2>
@@ -15,8 +15,8 @@ const PausasActivas = () => {
           estrés. Además, son una excelente forma de promover hábitos saludables
           en el trabajo y todas las áreas de la vida cotidiana.
         </p>
-      </div>
-      <div className="container">
+      </article>
+      <article className="container">
         {pausasData.map((pausas) => {
           const { id, text, title, descripcion, image } = pausas;
           return (
@@ -44,7 +44,7 @@ const PausasActivas = () => {
             </a>
           );
         })}
-      </div>
+      </article>
     </section>
   );
 };

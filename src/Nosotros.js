@@ -3,21 +3,21 @@ import React from "react";
 const Nosotros = () => {
   return (
     <section className="aboutUs" id="section1">
-      <div className="presentacion1">
+      <article className="presentacion1">
         <h2>SOBRE NOSOTROS</h2>
         <p>
           Somos profesionales de Wellness & Recursos Humanos trabajando al
           servicio de las organizaciones por una mejor Calidad de Vida Laboral
         </p>
-      </div>
-      <div className="presentacion">
+      </article>
+      <article className="presentacion">
         <div className="img-div">
           <img
             src="https://www.generationsforpeace.org/wp-content/uploads/2018/03/empty.jpg"
             alt="empty"
           />
         </div>
-        <div className="person-div" style={{ paddingLeft: "6vw" }}>
+        <article className="person-div" style={{ paddingLeft: "6vw" }}>
           <h3>John Cena</h3>
           <p>
             Profesional orientada a la excelencia en Recursos Humanos a nivel
@@ -35,9 +35,9 @@ const Nosotros = () => {
               estrategias de RR.HH & Marketing de V&K Corporativo.
             </li>
           </ul>
-        </div>
-      </div>
-      <div className="presentacion">
+        </article>
+      </article>
+      <article className="presentacion">
         <div
           className="person-div"
           style={{ paddingRight: "6vw", paddingLeft: "4vw" }}
@@ -70,9 +70,9 @@ const Nosotros = () => {
             alt="empty"
           />
         </div>
-      </div>
-      <div className="presentacion2">
-        <div style={{ width: "55%" }}>
+      </article>
+      <article className="presentacion2">
+        <article style={{ width: "55%" }}>
           <h4>CONOCÉ MÁS SOBRE NOSOTROS</h4>
           <h3>Cómo trabajamos</h3>
           <p>
@@ -91,7 +91,7 @@ const Nosotros = () => {
             <li>Sesiones semanal, quincenal o mensual de 15 o 30 minutos</li>
             <li> Plataforma: Zoom o Meet / presencial</li>
           </ul>
-        </div>
+        </article>
         <div className="img-div1">
           <img src="https://www.generationsforpeace.org/wp-content/uploads/2018/03/empty.jpg"></img>
         </div>
@@ -104,7 +104,7 @@ const Nosotros = () => {
             <img src="https://www.generationsforpeace.org/wp-content/uploads/2018/03/empty.jpg"></img>
           </div>
         </div>
-      </div>
+      </article>
     </section>
   );
 };
